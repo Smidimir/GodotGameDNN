@@ -20,13 +20,23 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="src\classes\PyBridge.h" />
+    <ClInclude Include="src\classes\SnakeGame.h" />
+    <ClInclude Include="src\classes\SnakeMap.h" />
     <ClInclude Include="src\gdlibrary.h" />
-    <ClInclude Include="src\mynode2d.h" />
+    <ClInclude Include="src\utils\IRaiiInitializer.h" />
+    <ClInclude Include="src\utils\PythonInitializer.h" />
+    <ClInclude Include="src\utils\Randomize.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
+    <ClCompile Include="src\classes\PyBridge.cpp" />
+    <ClCompile Include="src\classes\SnakeGame.cpp" />
+    <ClCompile Include="src\classes\SnakeMap.cpp" />
     <ClCompile Include="src\gdlibrary.cpp" />
-    <ClCompile Include="src\mynode2d.cpp" />
+    <ClCompile Include="src\utils\IRaiiInitializer.cpp" />
+    <ClCompile Include="src\utils\PythonInitializer.cpp" />
+    <ClCompile Include="src\utils\Randomize.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -127,7 +137,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>libgodot-cpp.windows.lib;python37_d.lib</AdditionalDependencies>
+      <AdditionalDependencies>libgodot-cpp.windows.lib;python37.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>
       </IgnoreAllDefaultLibraries>
     </Link>

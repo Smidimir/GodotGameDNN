@@ -1,0 +1,112 @@
+{
+  "build": "h508b16e_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "xz >=5.2.4,<6.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "D:\\ProgramFiles\\Anaconda3\\pkgs\\zstd-1.3.7-h508b16e_0",
+  "features": "",
+  "files": [
+    "Library/bin/libzstd.dll",
+    "Library/bin/zstd.exe",
+    "Library/include/cover.h",
+    "Library/include/zbuff.h",
+    "Library/include/zdict.h",
+    "Library/include/zstd.h",
+    "Library/include/zstd_errors.h",
+    "Library/lib/libzstd_static.lib",
+    "Library/lib/zstd.lib",
+    ".nonadmin"
+  ],
+  "fn": "zstd-1.3.7-h508b16e_0.conda",
+  "legacy_bz2_md5": "251803bb127a0b26ee8c92106d3ab1ae",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "D:\\ProgramFiles\\Anaconda3\\pkgs\\zstd-1.3.7-h508b16e_0",
+    "type": 1
+  },
+  "md5": "d9afbcac59b6f2ae0578fcff0790eb9f",
+  "name": "zstd",
+  "package_tarball_full_path": "D:\\ProgramFiles\\Anaconda3\\pkgs\\zstd-1.3.7-h508b16e_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libzstd.dll",
+        "path_type": "hardlink",
+        "sha256": "f98bc698073902b9a161e2af3376cd24328e8074a01c56e163f237572f592874",
+        "sha256_in_prefix": "f98bc698073902b9a161e2af3376cd24328e8074a01c56e163f237572f592874",
+        "size_in_bytes": 380416
+      },
+      {
+        "_path": "Library/bin/zstd.exe",
+        "path_type": "hardlink",
+        "sha256": "1246f5c6db8d9c3e39d0650b99f653be47c76642190eb03411dd63f606499806",
+        "sha256_in_prefix": "1246f5c6db8d9c3e39d0650b99f653be47c76642190eb03411dd63f606499806",
+        "size_in_bytes": 435200
+      },
+      {
+        "_path": "Library/include/cover.h",
+        "path_type": "hardlink",
+        "sha256": "e175146e00ed06d3f2dfa6e18f86a19318f5005b20075eba72cf5d36fd68cd1d",
+        "sha256_in_prefix": "e175146e00ed06d3f2dfa6e18f86a19318f5005b20075eba72cf5d36fd68cd1d",
+        "size_in_bytes": 2333
+      },
+      {
+        "_path": "Library/include/zbuff.h",
+        "path_type": "hardlink",
+        "sha256": "e1aa0c84dd40cfcf5a23e8dea5c376f9da626eeed902667fe0f8cbceb673840f",
+        "sha256_in_prefix": "e1aa0c84dd40cfcf5a23e8dea5c376f9da626eeed902667fe0f8cbceb673840f",
+        "size_in_bytes": 11474
+      },
+      {
+        "_path": "Library/include/zdict.h",
+        "path_type": "hardlink",
+        "sha256": "4d5b6b6f3ea51070e20732cb1dc9764e7722af89cd7ef68b067e4b6c809ab36d",
+        "sha256_in_prefix": "4d5b6b6f3ea51070e20732cb1dc9764e7722af89cd7ef68b067e4b6c809ab36d",
+        "size_in_bytes": 15671
+      },
+      {
+        "_path": "Library/include/zstd.h",
+        "path_type": "hardlink",
+        "sha256": "ec3c9e7e33afec8363c6c19c643b4c31f5c42d1d36b2f74347e3f28ecac5b8ae",
+        "sha256_in_prefix": "ec3c9e7e33afec8363c6c19c643b4c31f5c42d1d36b2f74347e3f28ecac5b8ae",
+        "size_in_bytes": 94270
+      },
+      {
+        "_path": "Library/include/zstd_errors.h",
+        "path_type": "hardlink",
+        "sha256": "3b60bd79d4f4abc1bf9648a4da8282f782dd5caf2789aea742f1f4d4ef250ff9",
+        "sha256_in_prefix": "3b60bd79d4f4abc1bf9648a4da8282f782dd5caf2789aea742f1f4d4ef250ff9",
+        "size_in_bytes": 3715
+      },
+      {
+        "_path": "Library/lib/libzstd_static.lib",
+        "path_type": "hardlink",
+        "sha256": "ae9e6bc3a87ef1e0a188212268bcf22d21a32f7ab5b283f43b40cb5efca83a66",
+        "sha256_in_prefix": "ae9e6bc3a87ef1e0a188212268bcf22d21a32f7ab5b283f43b40cb5efca83a66",
+        "size_in_bytes": 794914
+      },
+      {
+        "_path": "Library/lib/zstd.lib",
+        "path_type": "hardlink",
+        "sha256": "35fa7e4e8ca0079cae1abc59bdba08a08739f9bd65e69e28f207ca959d27a23a",
+        "sha256_in_prefix": "35fa7e4e8ca0079cae1abc59bdba08a08739f9bd65e69e28f207ca959d27a23a",
+        "size_in_bytes": 48788
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "21bb946ae6eb4661c4c7cc0552e330a51d818b66f3f883bd93ca7410df597477",
+  "size": 345573,
+  "subdir": "win-64",
+  "timestamp": 1541460124785,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/zstd-1.3.7-h508b16e_0.conda",
+  "version": "1.3.7"
+}

@@ -1,0 +1,12 @@
+prefix=D:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library
+exec_prefix=D:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library
+libdir=D:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library/lib
+includedir=D:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.37
+Requires: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm
+Cflags: -I${includedir}

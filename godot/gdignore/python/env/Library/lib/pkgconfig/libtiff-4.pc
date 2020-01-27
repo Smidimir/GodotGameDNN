@@ -1,0 +1,11 @@
+prefix=D:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library
+exec_prefix=D:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library
+libdir=D:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library/lib
+includedir=D:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.1.0
+Libs: -LD:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library/lib -ltiff
+Libs.private: 
+Cflags: -ID:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library/include

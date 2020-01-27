@@ -1,0 +1,277 @@
+{
+  "build": "h74a9793_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "D:\\ProgramFiles\\Anaconda3\\pkgs\\cudatoolkit-10.1.243-h74a9793_0",
+  "features": "",
+  "files": [
+    "DLLs/libdevice.10.bc",
+    "DLLs/nvvm64_33_0.dll",
+    "Library/bin/cublas64_10.dll",
+    "Library/bin/cublasLt64_10.dll",
+    "Library/bin/cudart64_101.dll",
+    "Library/bin/cudatoolkit_config.yaml",
+    "Library/bin/cufft64_10.dll",
+    "Library/bin/cufftw64_10.dll",
+    "Library/bin/curand64_10.dll",
+    "Library/bin/cusolver64_10.dll",
+    "Library/bin/cusparse64_10.dll",
+    "Library/bin/libdevice.10.bc",
+    "Library/bin/nppc64_10.dll",
+    "Library/bin/nppial64_10.dll",
+    "Library/bin/nppicc64_10.dll",
+    "Library/bin/nppicom64_10.dll",
+    "Library/bin/nppidei64_10.dll",
+    "Library/bin/nppif64_10.dll",
+    "Library/bin/nppig64_10.dll",
+    "Library/bin/nppim64_10.dll",
+    "Library/bin/nppist64_10.dll",
+    "Library/bin/nppisu64_10.dll",
+    "Library/bin/nppitc64_10.dll",
+    "Library/bin/npps64_10.dll",
+    "Library/bin/nvToolsExt64_1.dll",
+    "Library/bin/nvblas64_10.dll",
+    "Library/bin/nvgraph64_10.dll",
+    "Library/bin/nvrtc-builtins64_101.dll",
+    "Library/bin/nvrtc64_101_0.dll",
+    "Library/bin/nvvm64_33_0.dll",
+    ".nonadmin"
+  ],
+  "fn": "cudatoolkit-10.1.243-h74a9793_0.conda",
+  "legacy_bz2_md5": "52f41a182051a575c5f3da74ad05c5a7",
+  "link": {
+    "source": "D:\\ProgramFiles\\Anaconda3\\pkgs\\cudatoolkit-10.1.243-h74a9793_0",
+    "type": 1
+  },
+  "md5": "02a435b51bb9d51c995efec37058bec5",
+  "name": "cudatoolkit",
+  "package_tarball_full_path": "D:\\ProgramFiles\\Anaconda3\\pkgs\\cudatoolkit-10.1.243-h74a9793_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "DLLs/libdevice.10.bc",
+        "path_type": "hardlink",
+        "sha256": "03fba009227a684e5e0c72693a77a9741eb4e79dfc634ba3b00aff266d5796eb",
+        "sha256_in_prefix": "03fba009227a684e5e0c72693a77a9741eb4e79dfc634ba3b00aff266d5796eb",
+        "size_in_bytes": 453352
+      },
+      {
+        "_path": "DLLs/nvvm64_33_0.dll",
+        "path_type": "hardlink",
+        "sha256": "e274457c66b680e90c79f1a835ffb983f05f85e2ac407f6907079c1d28653997",
+        "sha256_in_prefix": "e274457c66b680e90c79f1a835ffb983f05f85e2ac407f6907079c1d28653997",
+        "size_in_bytes": 9808896
+      },
+      {
+        "_path": "Library/bin/cublas64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "8eaafee82ecc3f74ef534db11b1d8bdf76c60b33b0feb8b676668915fef7095e",
+        "sha256_in_prefix": "8eaafee82ecc3f74ef534db11b1d8bdf76c60b33b0feb8b676668915fef7095e",
+        "size_in_bytes": 58830848
+      },
+      {
+        "_path": "Library/bin/cublasLt64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "0326eefe9e8b5c24526a209864480d03f85f97efb38c4281b626272cd33aca4a",
+        "sha256_in_prefix": "0326eefe9e8b5c24526a209864480d03f85f97efb38c4281b626272cd33aca4a",
+        "size_in_bytes": 28906496
+      },
+      {
+        "_path": "Library/bin/cudart64_101.dll",
+        "path_type": "hardlink",
+        "sha256": "111f216aef35f45086888c3f0a30bb9ab48e2b333daeddafd3a76be037a22a6e",
+        "sha256_in_prefix": "111f216aef35f45086888c3f0a30bb9ab48e2b333daeddafd3a76be037a22a6e",
+        "size_in_bytes": 408064
+      },
+      {
+        "_path": "Library/bin/cudatoolkit_config.yaml",
+        "path_type": "hardlink",
+        "sha256": "7a7e822c14714eb6a84e444326953f0f47fef415a45315768f315696f9863ae0",
+        "sha256_in_prefix": "7a7e822c14714eb6a84e444326953f0f47fef415a45315768f315696f9863ae0",
+        "size_in_bytes": 1261
+      },
+      {
+        "_path": "Library/bin/cufft64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "855a7e0cd736c64ebe5ea243438fc4b6d8cbca24fc671ff0bddab9fe446d1fa9",
+        "sha256_in_prefix": "855a7e0cd736c64ebe5ea243438fc4b6d8cbca24fc671ff0bddab9fe446d1fa9",
+        "size_in_bytes": 136938496
+      },
+      {
+        "_path": "Library/bin/cufftw64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "3285b18a41a8019a3c43fd17128ee51a2b5c67700a6af49e46542ca0d7934397",
+        "sha256_in_prefix": "3285b18a41a8019a3c43fd17128ee51a2b5c67700a6af49e46542ca0d7934397",
+        "size_in_bytes": 225792
+      },
+      {
+        "_path": "Library/bin/curand64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "bbbc2bb7c77405f459365edb2eb06bd278c61a70f98c5f385d730ce4bc583718",
+        "sha256_in_prefix": "bbbc2bb7c77405f459365edb2eb06bd278c61a70f98c5f385d730ce4bc583718",
+        "size_in_bytes": 49032192
+      },
+      {
+        "_path": "Library/bin/cusolver64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "faa8363a3551358daa3043e71d755c24a94289511bb736c342c075be94d4f573",
+        "sha256_in_prefix": "faa8363a3551358daa3043e71d755c24a94289511bb736c342c075be94d4f573",
+        "size_in_bytes": 172226560
+      },
+      {
+        "_path": "Library/bin/cusparse64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "fecbbfc7484c4fe9ea282f4e24c39902e16d962e218d134b28f66a987f9be6df",
+        "sha256_in_prefix": "fecbbfc7484c4fe9ea282f4e24c39902e16d962e218d134b28f66a987f9be6df",
+        "size_in_bytes": 45735936
+      },
+      {
+        "_path": "Library/bin/libdevice.10.bc",
+        "path_type": "hardlink",
+        "sha256": "03fba009227a684e5e0c72693a77a9741eb4e79dfc634ba3b00aff266d5796eb",
+        "sha256_in_prefix": "03fba009227a684e5e0c72693a77a9741eb4e79dfc634ba3b00aff266d5796eb",
+        "size_in_bytes": 453352
+      },
+      {
+        "_path": "Library/bin/nppc64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "76f7e2854739d3af5a204cd376cf4e729e9056daca6bdc6ee3063b4bbc3db806",
+        "sha256_in_prefix": "76f7e2854739d3af5a204cd376cf4e729e9056daca6bdc6ee3063b4bbc3db806",
+        "size_in_bytes": 232960
+      },
+      {
+        "_path": "Library/bin/nppial64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "49fbe1c0b032ad2869d0c5ad3e567454a3c4bca0369b659b2d89e68232da6882",
+        "sha256_in_prefix": "49fbe1c0b032ad2869d0c5ad3e567454a3c4bca0369b659b2d89e68232da6882",
+        "size_in_bytes": 10066944
+      },
+      {
+        "_path": "Library/bin/nppicc64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "b44e834a8327fdfdc2e8035c75cf1300aee4e5bf56031bd977e1097458a0aec8",
+        "sha256_in_prefix": "b44e834a8327fdfdc2e8035c75cf1300aee4e5bf56031bd977e1097458a0aec8",
+        "size_in_bytes": 4109312
+      },
+      {
+        "_path": "Library/bin/nppicom64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "1fa215570434f54b51ec7f0d6312bf9d07703e9214344d259a53d290adedb7c8",
+        "sha256_in_prefix": "1fa215570434f54b51ec7f0d6312bf9d07703e9214344d259a53d290adedb7c8",
+        "size_in_bytes": 1004032
+      },
+      {
+        "_path": "Library/bin/nppidei64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "cf190004da1b2e2482fc2b24bad0369fade9381c9f174fd2f9e70d36c3b4063a",
+        "sha256_in_prefix": "cf190004da1b2e2482fc2b24bad0369fade9381c9f174fd2f9e70d36c3b4063a",
+        "size_in_bytes": 7239168
+      },
+      {
+        "_path": "Library/bin/nppif64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "afc0fadd697acbd97665bf1464213c3bc848160804ba352c38eb4fed05a6146a",
+        "sha256_in_prefix": "afc0fadd697acbd97665bf1464213c3bc848160804ba352c38eb4fed05a6146a",
+        "size_in_bytes": 45057024
+      },
+      {
+        "_path": "Library/bin/nppig64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "87d2283a72676717c0182df0c4357fd105c8a76b396bb665acd320f23e705417",
+        "sha256_in_prefix": "87d2283a72676717c0182df0c4357fd105c8a76b396bb665acd320f23e705417",
+        "size_in_bytes": 24635392
+      },
+      {
+        "_path": "Library/bin/nppim64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "7537e7ce72104af771eac20d057189831597060ca9fb2bbd3ad72eaf9eb70b00",
+        "sha256_in_prefix": "7537e7ce72104af771eac20d057189831597060ca9fb2bbd3ad72eaf9eb70b00",
+        "size_in_bytes": 5849600
+      },
+      {
+        "_path": "Library/bin/nppist64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "f4c2df55c2cc8448e000b41d3250db39b982741e9d7f4cc6e64737be8359f894",
+        "sha256_in_prefix": "f4c2df55c2cc8448e000b41d3250db39b982741e9d7f4cc6e64737be8359f894",
+        "size_in_bytes": 18128384
+      },
+      {
+        "_path": "Library/bin/nppisu64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "7ed98ca52c156d73da2614be84e258ae620d13188bd9ef4b0eb27114ff10a28c",
+        "sha256_in_prefix": "7ed98ca52c156d73da2614be84e258ae620d13188bd9ef4b0eb27114ff10a28c",
+        "size_in_bytes": 194560
+      },
+      {
+        "_path": "Library/bin/nppitc64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "22efd29ca369a09313794728be9ffae21e3c6baa83104420d4338b4afd5d5215",
+        "sha256_in_prefix": "22efd29ca369a09313794728be9ffae21e3c6baa83104420d4338b4afd5d5215",
+        "size_in_bytes": 2614784
+      },
+      {
+        "_path": "Library/bin/npps64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "5c9c6c4a1611c20c45c44b7585f6a226aa4f164012fc4199080359375ec84e6e",
+        "sha256_in_prefix": "5c9c6c4a1611c20c45c44b7585f6a226aa4f164012fc4199080359375ec84e6e",
+        "size_in_bytes": 8211968
+      },
+      {
+        "_path": "Library/bin/nvToolsExt64_1.dll",
+        "path_type": "hardlink",
+        "sha256": "6c3e7027522091e7701dacda709c1ada35359ad4ac889cb1ad6447e826aae986",
+        "sha256_in_prefix": "6c3e7027522091e7701dacda709c1ada35359ad4ac889cb1ad6447e826aae986",
+        "size_in_bytes": 48128
+      },
+      {
+        "_path": "Library/bin/nvblas64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "a856349da64ae01f4a5a4012370ab0d268042b6fb1ea6b7dcac06c2c01607f8b",
+        "sha256_in_prefix": "a856349da64ae01f4a5a4012370ab0d268042b6fb1ea6b7dcac06c2c01607f8b",
+        "size_in_bytes": 247296
+      },
+      {
+        "_path": "Library/bin/nvgraph64_10.dll",
+        "path_type": "hardlink",
+        "sha256": "27c9a5e6a5cbcc72c95312aff8c940fea5bc21f65a6cc888db4a338cff24140a",
+        "sha256_in_prefix": "27c9a5e6a5cbcc72c95312aff8c940fea5bc21f65a6cc888db4a338cff24140a",
+        "size_in_bytes": 141188096
+      },
+      {
+        "_path": "Library/bin/nvrtc-builtins64_101.dll",
+        "path_type": "hardlink",
+        "sha256": "48762ca52ed8da30d4bc549cf112714267897b6495197f64f75e173904cc26f7",
+        "sha256_in_prefix": "48762ca52ed8da30d4bc549cf112714267897b6495197f64f75e173904cc26f7",
+        "size_in_bytes": 4583424
+      },
+      {
+        "_path": "Library/bin/nvrtc64_101_0.dll",
+        "path_type": "hardlink",
+        "sha256": "03bbc09ba4f3c30450d2a6ce2e5be48b995347fca77af2fa77aff29dc828cb69",
+        "sha256_in_prefix": "03bbc09ba4f3c30450d2a6ce2e5be48b995347fca77af2fa77aff29dc828cb69",
+        "size_in_bytes": 15682560
+      },
+      {
+        "_path": "Library/bin/nvvm64_33_0.dll",
+        "path_type": "hardlink",
+        "sha256": "e274457c66b680e90c79f1a835ffb983f05f85e2ac407f6907079c1d28653997",
+        "sha256_in_prefix": "e274457c66b680e90c79f1a835ffb983f05f85e2ac407f6907079c1d28653997",
+        "size_in_bytes": 9808896
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "cudatoolkit=10.1",
+  "sha256": "60ca555c3fd43c7b5929d8cdc78958363a3d5f34355e0484cfd647d9bad32659",
+  "size": 314912806,
+  "subdir": "win-64",
+  "timestamp": 1572639942598,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/cudatoolkit-10.1.243-h74a9793_0.conda",
+  "version": "10.1.243"
+}

@@ -16,12 +16,18 @@ _global_script_class_icons={
 [application]
 
 config/name="GameDNN"
-run/main_scene="res://main.tscn"
+run/main_scene="res://scenes/MainMenu/Root.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=704
+window/size/height=704
+window/size/resizable=false
 
 [gdnative]
 
-singletons=[ "res://bin/gd_libtorch/gd_libtorch.gdnlib" ]
+singletons=[  ]
 
 [rendering]
 

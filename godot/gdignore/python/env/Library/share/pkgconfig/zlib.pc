@@ -1,0 +1,13 @@
+prefix=D:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library
+exec_prefix=D:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library
+libdir=D:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library/lib
+sharedlibdir=D:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library/lib
+includedir=D:/ProgramFiles/Anaconda3/envs/rl_game_environment/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

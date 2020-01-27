@@ -1,0 +1,8 @@
+[gd_resource type="NativeScript" load_steps=2 format=2]
+
+[ext_resource path="res://bin/gd_libtorch/gd_libtorch.gdnlib" type="GDNativeLibrary" id=1]
+
+[resource]
+resource_name = "gd_libtorch::SnakeMap"
+class_name = "SnakeMap"
+library = ExtResource( 1 )

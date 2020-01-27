@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scenes/AiSelectionMenu/TrainButton.gd" type="Script" id=1]
+[ext_resource path="res://scenes/AiSelectionMenu/PlayButton.gd" type="Script" id=2]
+
+[node name="Root" type="Node2D"]
+
+[node name="TrainButton" type="Button" parent="."]
+margin_left = 55.5337
+margin_top = 541.055
+margin_right = 319.534
+margin_bottom = 645.055
+text = "Train"
+script = ExtResource( 1 )
+
+[node name="PlayButton" type="Button" parent="."]
+margin_left = 368.533
+margin_top = 539.068
+margin_right = 649.533
+margin_bottom = 645.068
+text = "Play"
+script = ExtResource( 2 )
+[connection signal="pressed" from="TrainButton" to="TrainButton" method="_on_pressed"]
+[connection signal="pressed" from="PlayButton" to="PlayButton" method="_on_pressed"]

@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scenes/MainMenu/GoButton.gd" type="Script" id=1]
+[ext_resource path="res://scenes/MainMenu/AiButton.gd" type="Script" id=2]
+
+[node name="Root" type="Node2D"]
+
+[node name="GoButton" type="Button" parent="."]
+margin_left = 57.1205
+margin_top = 545.815
+margin_right = 280.12
+margin_bottom = 632.815
+text = "Go"
+script = ExtResource( 1 )
+
+[node name="AiButton" type="Button" parent="."]
+margin_left = 409.8
+margin_top = 544.8
+margin_right = 622.8
+margin_bottom = 635.8
+text = "Ai"
+script = ExtResource( 2 )
+[connection signal="pressed" from="GoButton" to="GoButton" method="_on_pressed"]
+[connection signal="pressed" from="AiButton" to="AiButton" method="_on_pressed"]

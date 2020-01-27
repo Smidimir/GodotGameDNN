@@ -1,0 +1,51 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "D:\\ProgramFiles\\Anaconda3\\pkgs\\ca-certificates-2019.11.27-0",
+  "features": "",
+  "files": [
+    "Library/ssl/cacert.pem",
+    "Library/ssl/cert.pem",
+    ".nonadmin"
+  ],
+  "fn": "ca-certificates-2019.11.27-0.conda",
+  "legacy_bz2_md5": "2b6f6df9da148235355bfe29b4eb7b96",
+  "license": "MPL 2.0",
+  "link": {
+    "source": "D:\\ProgramFiles\\Anaconda3\\pkgs\\ca-certificates-2019.11.27-0",
+    "type": 1
+  },
+  "md5": "b92de617ee9cb7495c0e31c2b09c7a29",
+  "name": "ca-certificates",
+  "package_tarball_full_path": "D:\\ProgramFiles\\Anaconda3\\pkgs\\ca-certificates-2019.11.27-0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/ssl/cacert.pem",
+        "path_type": "hardlink",
+        "sha256": "0d98a1a961aab523c9dc547e315e1d79e887dea575426ff03567e455fc0b66b4",
+        "sha256_in_prefix": "0d98a1a961aab523c9dc547e315e1d79e887dea575426ff03567e455fc0b66b4",
+        "size_in_bytes": 221363
+      },
+      {
+        "_path": "Library/ssl/cert.pem",
+        "path_type": "hardlink",
+        "sha256": "0d98a1a961aab523c9dc547e315e1d79e887dea575426ff03567e455fc0b66b4",
+        "sha256_in_prefix": "0d98a1a961aab523c9dc547e315e1d79e887dea575426ff03567e455fc0b66b4",
+        "size_in_bytes": 221363
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b9032c71800839ec9bc1acadbfa5404a9c538675b5c759da3c73ea7028347240",
+  "size": 127102,
+  "subdir": "win-64",
+  "timestamp": 1575389775903,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/ca-certificates-2019.11.27-0.conda",
+  "version": "2019.11.27"
+}

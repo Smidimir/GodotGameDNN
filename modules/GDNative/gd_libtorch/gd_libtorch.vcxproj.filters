@@ -12,27 +12,63 @@
     <Filter Include="Precompiled Header">
       <UniqueIdentifier>{fa50bb7e-265a-4656-89d7-e36db8e2be5a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\classes">
+      <UniqueIdentifier>{d966fab7-ad55-49fa-9531-315c5a813ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\utils">
+      <UniqueIdentifier>{afd6ff43-96b7-418a-b9a4-5a897e060dea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\mynode2d.h">
-      <Filter>Source</Filter>
-    </ClInclude>
     <ClInclude Include="src\gdlibrary.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="pch.h">
       <Filter>Precompiled Header</Filter>
     </ClInclude>
+    <ClInclude Include="src\utils\PythonInitializer.h">
+      <Filter>Source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\IRaiiInitializer.h">
+      <Filter>Source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\PyBridge.h">
+      <Filter>Source\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\SnakeGame.h">
+      <Filter>Source\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\Randomize.h">
+      <Filter>Source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\SnakeMap.h">
+      <Filter>Source\classes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\gdlibrary.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="src\mynode2d.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\PythonInitializer.cpp">
+      <Filter>Source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\IRaiiInitializer.cpp">
+      <Filter>Source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\classes\PyBridge.cpp">
+      <Filter>Source\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\classes\SnakeGame.cpp">
+      <Filter>Source\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\Randomize.cpp">
+      <Filter>Source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\classes\SnakeMap.cpp">
+      <Filter>Source\classes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

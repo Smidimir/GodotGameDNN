@@ -1,36 +1,14 @@
 [general]
 
-singleton=true
+singleton=false
 load_once=true
 symbol_prefix="godot_"
 reloadable=true
 
-""" Debug """
 [entry]
 
 Windows.64="res://bin/gd_libtorch/Debug/gd_libtorch.dll"
 
 [dependencies]
 
-Windows.64=[
-	"res://bin/gd_libtorch/Debug/gd_libtorch.pdb",
-	"res://bin/gd_libtorch/Debug/python37_d.pdb",
-	"res://bin/gd_libtorch/Debug/python37_d.dll",
-	"res://bin/gd_libtorch/Debug/python37.pdb",
-	"res://bin/gd_libtorch/Debug/python37.dll"
-]
-
-
-""" Release 
-[entry]
-
-Windows.64="res://bin/gd_libtorch/Release/gd_libtorch.dll"
-
-[dependencies]
-
-Windows.64=[
-	"res://bin/gd_libtorch/Release/gd_libtorch.pdb",
-	"res://bin/gd_libtorch/Release/python37.pdb",
-	"res://bin/gd_libtorch/Release/python37.dll"
-]
-"""
+Windows.64=[ "res://bin/gd_libtorch/Debug/gd_libtorch.pdb", "res://bin/gd_libtorch/Debug/python37.pdb", "res://bin/gd_libtorch/Debug/python37.dll" ]
